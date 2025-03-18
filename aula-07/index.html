@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 07</title>
+</head>
+<body>
+  
+    <h1>Tabelas</h1>
+
+    <h2>Exemplo</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Camiseta</td>
+                <td>R$39,90</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Calça</td>
+                <td>R$89,90</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>R$129,90</td>
+                <td>15</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <h2>Exercício 1</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="2">Brasil</th>
+            
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Estado</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td rowspan="4">São Paulo</td>
+                <td>Corinthians</td> 
+            </tr>
+            <tr>  
+                <td>Palmeiras</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>Santos</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td>Flamengo</td>
+            </tr>
+            <tr>
+                <td>Fluminense</td>
+            </tr>
+            <tr>
+                <td>Vasco</td>
+            </tr>
+            <tr>
+                <td>Botafogo</td>
+            </tr>
+           </tbody>
+    
+        </table>
+
+        <hr>
+
+        <h2>Exercício 2</h2>
+        <table border="2">
+            <thead>
+                <th>Produto</th>
+                <th colspan="3">Análise de Preço</th>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <th rowspan="4">Caixa JBL Bump!</th>
+                    <th rowspan="2">Submarino</th>
+                    <th>Boleto</th>
+                    <td>R$ 300,00</td>
+                </tr>
+                <tr>
+                    <th>Cartão</th>
+                    <td>R$ 350,00</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Amazon</th>
+                    <th>Boleto</th>
+                    <td>R$ 310,00</td>
+                </tr>
+                <tr>
+                    <th>Cartão</th>
+                    <td>R$ 340,00</td>
+                </tr>
+
+                <tr>
+                    <th rowspan="4">Apple Watch SE</th>
+                    <th rowspan="2">Submarino</th>
+                    <th>Boleto</th>
+                    <td>R$ 2.300,00</td>
+                </tr>
+                <tr>
+                    <th>Cartão</th>
+                    <td>R$ 2.500,00</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Amazon</th>
+                    <th>Boleto</th>
+                    <td>R$ 2.350,00</td>
+                </tr>
+                <tr>
+                    <th>Cartão</th>
+                    <td>R$ 2.350,00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h2>Exercício 3</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th rowspan="2">Funcionário</th>
+                    <th rowspan="2">Semestre</th>
+                    <th colspan="2">Gastos</th>
+                    <th colspan="2">Lucros</th>
+                </tr>
+                <tr>
+                    <th>Líquido</th>
+                    <th>Bruto</th>
+                    <th>Líquido</th>
+                    <th>Bruto</th>
+                </tr>    
+            </thead>
+            <tr>
+                <td rowspan="2">João</td>
+                <td>1º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>2º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Maria</td>
+                <td>1º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>2º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+        </table>
+
+</body>
+</html>
