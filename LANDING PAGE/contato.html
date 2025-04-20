@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="shortcut icon" href="./imagens/favicon-16x16.png" type="image/x-icon">
+    <title>Contato - Landing Page</title>
+</head>
+
+<body>
+    <main style="background-color: #344d63;">
+        <a href="index.html" target="_blank" rel="internal"><button>Home</button></a>
+        <a href="curriculo.html" target="_blank" rel="internal"><button>Currículo</button></a>
+        <a href="github.html" target="_blank" rel="internal"><button>GitHub</button></a>
+        <a href="serviços.html" target="_blank" rel="internal"><button>Serviços</button></a>
+    </main>
+    <br>
+
+    <h1>Contato</h1>
+    <h2>Preencha o formulário abaixo para receber contato</h2>
+
+    <main style="width: 50%; margin-left: 25%; text-align: left;">
+        <form>
+            <div>
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <hr>
+
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="telefone" id="telefone">
+            </div>
+            <hr>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <hr>
+
+            <div>
+                <p>Tipo de Pessoa</p>
+                <label for="Tipo de Pessoa">Física</label>
+                <input type="checkbox" id="tipopessoa" name="tipopessoa">
+                <br>
+                
+                <label for="Tipo de Pessoa">Jurídica</label>
+                <input type="checkbox" id="tipopessoa2" name="tipopessoa2">
+            </div>
+            <hr>
+
+            <div>
+                <label for="horario">Melhor horário para contato:</label>
+                <input type="text" id="horario" name="horario">
+            </div>
+            <hr>
+
+            <div>
+                <p>Serviço Desejado</p>
+                <label for="Serviço">Página Estática</label>
+                <input type="checkbox" name="servico1" id="serv1">
+                <br>
+
+                <label for="Serviço">Página Dinâmica</label>
+                <input type="checkbox" name="servico2" id="serv2">
+                <br>
+
+                <label for="Serviço">Página Super Avançada</label>
+                <input type="checkbox" name="servico3" id="serv3">
+            </div>
+            <hr>
+
+            <div>
+                <label for="descrição">Descrição do Serviço:</label>
+                <input type="msg" name="desc" id="desc">
+            </div>
+
+            <div style="text-align: right;">
+                <button type="submit" style="background-color: #344d63; color: aliceblue;">Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
