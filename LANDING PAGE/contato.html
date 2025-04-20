@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="shortcut icon" href="./imagens/favicon-16x16.png" type="image/x-icon">
+    <title>Contato - Landing Page</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html" target="_blank" rel="internal">Home</a></li>
+        <li><a href="curriculo.html" target="_blank" rel="internal">Currículo</a></li>
+        <li><img src="./imagens/curriculo.jpg" width="50" alt="ícone" style="border-radius: 100px;"></li>
+        <li><a href="github.html" target="_blank" rel="internal">GitHub</a></li>
+        <li><a href="serviços.html" target="_blank" rel="internal">Serviços</a></li>
+    </ul>
+    <br>
+
+    <h1>Contato</h1>
+    <h2>Preencha o formulário abaixo para receber contato</h2>
+
+    <form action="#" method="post">
+
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required placeholder="Preencha seu nome completo">
+        <br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="email@email.com">
+        <br><br>
+
+        <label for="pessoa">CPF ou CNPJ</label>
+        <input type="text" id="pessoa" name="pessoa" required placeholder="Informe seu CPF ou CNPJ">
+        <br><br>
+        
+
+        <label for="pessoa">Tipo Pessoa</label>
+        <select id="servico" name="servico">
+            <option value="pagina-estatica">Pessoa Física</option>
+            <option value="pagina-dinamica">Pessoa Jurídica</option>
+        </select>
+
+    
+        <label for="horario">Melhor Horário para Contato:</label>
+            <select id="horario" name="horario">
+                <option value="manha">Entre 8h e 12h</option>
+                <option value="tarde">Entre 13h e 18h</option>
+            </select>
+    <br><br>
+
+        <label for="servico">Tipo de Serviço que Deseja:</label>
+        <select id="servico" name="servico">
+            <option value="pagina-estatica">Página Estática - HTML e CSS</option>
+            <option value="pagina-dinamica">Página Dinâmica</option>
+            <option value="pagina-avancada">Página Super Avançada</option>
+        </select>
+        <br><br>
+
+        <label for="descricao">Descrição</label><br>
+        <textarea id="descricao" name="descricao" rows="4" cols="50" placeholder="Por favor, descreva de forma breve o serviço que deseja"></textarea>
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>
