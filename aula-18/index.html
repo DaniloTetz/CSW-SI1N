@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostra a Idade</title>
+
+    <style>
+        body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        h1{text-align: center;}
+        button{background-color: rgb(10, 150, 17);
+                color: white;
+                border-radius: 10%;}
+            
+    </style>
+</head>
+<body>
+ <h1>Mostra a Idade</h1>
+<div>
+    <b>Digite a idade: </b><input id="idadeU" type="number" size="60"> <button onclick="Identifica()">Identificar</button>
+</div>
+<br>
+<div id="result"></div>
+
+    <script type="text/JavaScript"> 
+        function Identifica() {
+
+            var idadeU = document.getElementById("idadeU").value;
+            idadeU = parseInt(idadeU);
+
+            if (idadeU > 0 && idadeU < 10) {document.getElementById("result").
+                innerHTML = "É uma criança.";}
+
+            else if (idadeU >= 10 && idadeU < 15) {document.getElementById("result").
+                innerHTML = "É um adolescente.";}
+
+            else if (idadeU >= 15 && idadeU < 25) {document.getElementById("result").
+                innerHTML = "É um jovem.";}
+
+            else if (idadeU >= 25 && idadeU < 60) {document.getElementById("result").
+                innerHTML = "É um adulto.";}
+            
+            else if (idadeU >= 60) {document.getElementById("result").
+                innerHTML = "É um idoso.";}
+
+            else {document.getElementById("result").
+                innerHTML = "Idade inválida.";}
+            }
+    </script>
+
+
+</body>
+</html>
